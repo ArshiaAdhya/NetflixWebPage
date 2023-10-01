@@ -1,0 +1,110 @@
+@font-face {
+    font-family: nf;
+    src: url(NetflixSansBold.ttf);
+}
+@font-face {
+    font-family: nfl;
+    src: url(NetflixSansThin.ttf);
+}
+body{
+    background-color: black;
+    background: 
+    linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+    ), url(https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/ea44b42b-ba19-4f35-ad27-45090e34a897/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: nfl;
+}
+button:hover{
+    background-color: #a90303;
+}
+/* .started:hover{
+    background-color: #fc2929;
+} */
+.dimg{
+    filter: brightness(50%);
+}
+h1{
+    position: relative;
+    font-family: nf;
+    top: 140px;
+    font-size: 50px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+}
+h2{
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+h3{
+    position: relative;
+    top:120px;
+    text-align: center;
+}
+input{
+    position: relative;
+    padding: 15px;
+    width:300px;
+    background-color: black;
+    opacity: 70%;
+    border-radius: 4px;
+    top: 120px;
+    text-align: left;   
+    color: white; 
+    font-size: 20px;
+}
+.signin{
+    position: relative;
+    top:20px;
+    left:540px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+select{
+    position:relative;
+    top: -17px;
+    left:450px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: black;
+    color:white;
+    opacity: 70%;
+}
+.started{
+    font-size: 20px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    top:120px;
+}
+button{
+    background-color: rgb(225, 44, 44);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px;
+    transition-duration:0.3s;
+    cursor: pointer;
+    font-weight: 700;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.writ{
+    color:white;
+}
